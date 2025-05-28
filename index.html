@@ -13,33 +13,9 @@
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
-        } /* Общий контейнер страницы */
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 20px;
-        } /* Элементы шапки страницы */
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1rem;
-            text-align: center;
         }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: space-between;
-        }
-        nav li {
-            margin-right: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-        }
-        @media screen and (max-width: 768px) { /* Для мобильных устройств */
+        @media screen and (max-width: 768px) {
+            /* Для мобильных устройств */
             nav ul {
                 flex-direction: column;
                 align-items: center;
@@ -60,18 +36,6 @@
             padding: 20px;
             margin-top: 20px;
             box-shadow: 0 0 10px rgba(0,0,0,.1);
-        }
-        section {
-            margin-bottom: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            position: relative;
-            bottom: 0;
-            width: 100%;
         }
         blockquote:before {
             content: "Описание ресурса";
